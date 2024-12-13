@@ -6,11 +6,12 @@ function App() {
 
   return (
     <>
-    <div className="rounded-t-2xl border-4 border-gray-300">
+    <div className="md:min-w-[800px] rounded-t-2xl border-4 border-gray-300 w-[80%] mx-auto">
       <Header />
-      <main className=" h-[400px] p-20">
+      <main className="p-20 ">
         <Form />
       </main>
+      
     </div>
     
     </>
