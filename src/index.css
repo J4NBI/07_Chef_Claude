@@ -33,12 +33,14 @@
 }
 
 body {
+  scroll-behavior: smooth;
   overflow: scroll;
   font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background: linear-gradient(to bottom,#e1cae8,#6b548c);
   display: flex;
   justify-content: center;
   align-items: center;
+  
 
 }
 

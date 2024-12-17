@@ -2,7 +2,8 @@ import React from "react";
 
 const Form = (props) => {
   return (
-    <div className="">
+    <div className="flex flex-col gap-12">
+      <h2 className="bg-white bg-opacity-45 p-8 border-2 border-yellow-300 rounded-md text-xl text-center font-bold max-w-[800px] mx-auto">Welcome to Chef Claude!<br/> Type in at least three ingredients to generate personalized recipe suggestions and discover exciting culinary combinations.</h2>
       <form
         action={props.submit}
         className="flex items-center flex-col md:flex-row justify-center"

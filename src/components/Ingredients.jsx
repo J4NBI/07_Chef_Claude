@@ -4,12 +4,12 @@ const Ingredients = (props) => {
   return (
     <>
     {props.ingredients.length > 0 && (
-      <h2 className="ml-8 mt-8 text-2xl font-bold">Ingredients on hand:</h2>
+      <h2 className="pt-12 text-2xl font-bold">Ingredients on hand:</h2>
     )}
-    <ul className="ml-8 mt-8 ">
+    <ul className="pt-12 mx-auto flex gap-8 flex-wrap max-w-[400px] justify-center items-center">
       {props.ingredients.map((i, index) => (
         <li key={index}>
-          <span className='text-2xl'>👉</span> {i}
+          <span className='text-2xl pr-2'>👉</span> {i}
         </li>
       ))}
     </ul>
